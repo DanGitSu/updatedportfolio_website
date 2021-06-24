@@ -1,0 +1,255 @@
+*{
+  box-sizing: inherit;
+}
+
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+  line-height: 1.15;
+  /* not sure how mobile applications work */
+  -webkit-text-size-adjust: 100%;
+}
+nav{
+  display: block;
+}
+section{
+  display: block;
+}
+a{
+  background-color: transparent;
+  font-weight: 300;
+  color: #1565c0;
+  text-decoration: none;
+}
+body{
+  font-family: Merriweather,Georgia,serif;
+  font-size: 1.6em;
+  font-weight: 300;
+  line-height: 1.8em;
+  margin : 0;
+  display: block;
+}
+h1{
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+}
+h2 {
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+}
+h3{
+  line-height: 3.2rem;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lato,Helvetica,sans-serif;
+  font-weight: 700;
+  color: #dadada;;
+}
+div {
+  display: block;
+}
+li {
+  display: list-item;
+}
+
+.colorscheme{
+  color: #dadada;
+  background-color: #212121;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 90rem;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.navigation{
+  height: 6rem;
+  width: 100%;
+}
+
+.navigation .navigation-title{
+  height: 6rem;
+  width: 100%;
+}
+
+.navigation-title{
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.navigation a{
+  display: inline;
+  font-size: 1.6rem;
+  font-family: Lato,Helvetica,sans-serif;
+  font-weight: 700;
+  line-height: 6rem;
+  color: #dadada;
+}
+
+.navigation .navigation-list{
+  float: right;
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.navigation-title .navigation-list{
+  float: right;
+  list-style: none;
+  list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.navigation .navigation-list .navigation-item{
+  float: left;
+  margin: 0;
+  position: relative;
+}
+
+.navigation .navigation-list .navigation-item a{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.navigation-link:hover{
+  font-size: larger;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+li{
+  display: list-item;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  flex: 1;
+  display: flex;
+  margin-top: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.centered .about{
+  text-align: center;
+}
+
+.avatar img {
+  width: 20rem;
+  height: auto;
+  border-radius: 50%;
+}
+
+img {
+  max-width: 100%;
+  border-style: none;
+}
+
+.centered .about h1{
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+
+.centered .about h2 h3{
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-size: 2.4rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.centered .about h3{
+  font-weight: 500;
+}
+
+.centered .about ul{
+  list-style: none;
+  margin: 3rem 0 1rem;
+  padding: 0;
+}
+
+.centered .about ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.centered .about ul li a {
+  color: #dadada;
+  text-transform: uppercase;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.6rem;
+}
+
+.centered .about ul li a i {
+  font-size: 3.2rem;
+}
+
+.fab{
+  font-weight: 400;
+  font-family: "Font Awesome 5 Brands";
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.footer{
+  width: 100%;
+  text-align: center;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.school:hover{
+  font-size: larger;
+}
+
+.table{
+  width: 100%;
+}
+.table td{
+  text-align: center;
+}
+
+.fab:hover{
+  color: #1565c0;
+}
+
+.tabling img{
+  max-width: 35rem;
+  float: left;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+}
